@@ -9,7 +9,6 @@ const std::size_t DEFAULT_CHUNKS_PER_BLOCK = 1000000;
 
 template <class T>
 class PoolAllocator {
-
 public:
 
     typedef T value_type;
@@ -105,7 +104,6 @@ public:
     }
 
     pointer allocate(size_type size) {
-        //static int count = 0;
         FreeChunks* chunk = current_chunk;
         while (chunk) {
             if (chunk->size > size) {

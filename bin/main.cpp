@@ -2,6 +2,10 @@
 #include <chrono>
 #include <fstream>
 
+int main() {
+    return 0;
+}
+
 // Дает возможность замерять время выполнения чего-либо
 class Timer {
 public:
@@ -28,7 +32,3 @@ private:
     std::chrono::time_point<std::chrono::high_resolution_clock> start_time_point;
     std::ofstream* file_out;
 };
-
-int main() {
-
-}
