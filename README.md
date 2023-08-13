@@ -1,6 +1,4 @@
-# Лабораторная работа 9
-
-MemoryPoolsAllocator
+# MemoryPoolsAllocator
 
 ## Задача
 
