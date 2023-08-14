@@ -38,6 +38,8 @@
 
 **push_back**:
 
-
+[](https://github.com/Kreg101/PoolAllocator/blob/main/benchmarks/push_back.png)
 
 **pop_back**
+
+[](https://github.com/Kreg101/PoolAllocator/blob/main/benchmarks/pop_back.png)
